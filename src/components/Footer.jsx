@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4 text-center">
         {/* Name */}
         <h3 className="text-lg font-semibold tracking-wide">
-          Ogunremi <span className="text-cyan-400">Abdul Qoyyum</span>
+          Abdul<span className="text-cyan-400">Qoyyum</span>
         </h3>
 
         {/* Social Icons */}

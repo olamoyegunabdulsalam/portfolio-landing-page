@@ -61,14 +61,16 @@ const About = () => {
 
               <div className="space-y-4 text-lg text-gray-300">
                 <p>
-                  I’m Ogunremi Abdul Qoyyum, am a web developer who genuinely cares about how your
-                  website represents you and your business.
+                  I’m Abdul Qoyyum, am a web developer who genuinely cares about
+                  how your website represents you and your business.
                 </p>
 
                 <p>
-                  I don’t just build “nice-looking” sites. I focus on clarity,
-                  trust, and structure so visitors instantly understand who you
-                  are, what you offer, and why they should choose you.
+                  I don’t just build{" "}
+                  <span className="text-cyan-400 font-bold">nice-looking</span> sites. I
+                  focus on clarity, trust, and structure so visitors instantly
+                  understand who you are, what you offer, and why they should
+                  choose you.
                 </p>
 
                 <p>
