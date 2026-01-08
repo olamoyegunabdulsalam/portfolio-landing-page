@@ -212,7 +212,7 @@ const nextSlide = useCallback(() => {
           rel="noopener noreferrer"
           className="px-6 md:px-8 py-2 md:py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
         >
-          Start Your Success Story
+          Get My Portfolio
         </a>
       </motion.div>
     </section>

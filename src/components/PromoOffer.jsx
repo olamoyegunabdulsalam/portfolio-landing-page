@@ -78,7 +78,6 @@ const PromoOffer = () => {
                 </div>
 
                 <div className="text-center">
-
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -89,9 +88,8 @@ const PromoOffer = () => {
                     rel="noopener noreferrer"
                     className="px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300"
                   >
-                    Claim Your Discount
+                    Get My Portfolio
                   </motion.button>
-
                 </div>
               </div>
             </div>

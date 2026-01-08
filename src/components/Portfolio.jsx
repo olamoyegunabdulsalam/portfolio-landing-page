@@ -166,7 +166,12 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <a href={item.demoUrl} target="_blank" rel="noopener noreferrer" className="w-full inline-flex justify-center items-center gap-2 py-3 rounded-lg border border-cyan-500/30 text-cyan-400 font-semibold hover:bg-cyan-500/10 transition-all duration-300">
+                <a
+                  href={item.demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex justify-center items-center gap-2 py-3 rounded-lg border border-cyan-500/30 text-cyan-400 font-semibold hover:bg-cyan-500/10 transition-all duration-300"
+                >
                   <Eye className="w-5 h-5" />
                   View Live Demo
                 </a>
@@ -199,7 +204,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
             >
-              Start Your Project Today
+              Get My Portfolio
             </a>
           </div>
         </motion.div>

@@ -78,7 +78,7 @@ const Hero = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Book Your Free Consultation
+                    Get My Portfolio
                   </a>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </div>
