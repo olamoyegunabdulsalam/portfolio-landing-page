@@ -111,7 +111,7 @@ const WhatYouGetAndHowFast = () => {
               rel="noopener noreferrer"
               className="mt-4 px-10 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300"
             >
-              Get My Portfolio
+              Get My Portfolio Website
             </a>
           </div>
         </motion.div>

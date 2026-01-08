@@ -117,7 +117,7 @@ const WhoFor = () => {
             to-cyan-600 text-white font-semibold hover:shadow-lg
             hover:shadow-cyan-500/25 transition-all duration-300"
           >
-            Get My Portfolio
+            Get My Portfolio Website
           </a>
         </motion.div>
       </div>

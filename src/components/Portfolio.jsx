@@ -204,7 +204,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
             >
-              Get My Portfolio
+              Get My Portfolio Website
             </a>
           </div>
         </motion.div>
