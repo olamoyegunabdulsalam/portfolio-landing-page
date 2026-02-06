@@ -28,8 +28,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post("https://api.web3forms.com/submit", {
-        access_key:
-          "459a9e69-e773-465a-97df-1d187d9af05b",
+        access_key: "459a9e69-e773-465a-97df-1d187d9af05b",
         name: formData.name,
         email: formData.email,
         message: formData.message,
@@ -37,6 +36,13 @@ const Contact = () => {
       });
 
       if (response.data.success) {
+        // ✅ Fire Meta Pixel ONLY on real success
+        if (window.fbq) {
+          window.fbq("track", "Lead", {
+            source: "contact_form",
+          });
+        }
+
         setSuccess(true);
         setFormData({
           name: "",
@@ -160,7 +166,7 @@ const Contact = () => {
                   whileTap={{ scale: 0.98 }}
                   type="submit"
                   disabled={loading}
-                  className="w-full py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 flex items-center justify-center gap-2"
+                  className="w-full py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <span>{loading ? "Sending..." : "Send Message"}</span>
                   <ArrowRight className="w-5 h-5" />
@@ -196,7 +202,7 @@ const Contact = () => {
 
 I’m interested in building a custom professional website and would like to claim the 50% discount slot.
 
-My name is`
+My name is`,
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"

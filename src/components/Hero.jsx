@@ -73,7 +73,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center gap-2">
                   <a
                     href={`https://wa.me/2348034910529?text=${encodeURIComponent(
-                      `Hi, I just came across your portfolio website offer.I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`
+                      `Hi, I just came across your portfolio website offer.I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -86,10 +86,16 @@ const Hero = () => {
 
               <button
                 onClick={() => {
+                  // Meta Pixel Event
+                  if (window.fbq) {
+                    window.fbq("track", "ViewContent");
+                  }
+
+                  // Scroll to portfolio section
                   const portfolioSection = document.getElementById("portfolio");
                   portfolioSection?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="px-8 py-4 rounded-lg border-2 border-cyan-500/30 text-cyan-300 font-semibold hover:bg-cyan-500/10 transition-all duration-300"
+                className="px-8 py-4 rounded-lg border-2 border-cyan-500/30 text-cyan-300 font-semibold hover:bg-cyan-500/10 transition-all duration-300 cursor-pointer"
               >
                 See Created Portfolio
               </button>

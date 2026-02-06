@@ -81,12 +81,24 @@ const PromoOffer = () => {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    href={`https://wa.me/2348034910529?text=${encodeURIComponent(
-                      `Hi, I just came across your portfolio website offer.I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`
-                    )}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300"
+                    onClick={() => {
+                      // ✅ Meta Pixel Lead event
+                      if (window.fbq) {
+                        window.fbq("track", "Lead", {
+                          source: "promo_offer_whatsapp",
+                        });
+                      }
+
+                      // Open WhatsApp link
+                      window.open(
+                        `https://wa.me/2348034910529?text=${encodeURIComponent(
+                          `Hi, I just came across your portfolio website offer. I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
+                        )}`,
+                        "_blank",
+                        "noopener,noreferrer",
+                      );
+                    }}
+                    className="px-8 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300 cursor-pointer"
                   >
                     Get My Portfolio Website
                   </motion.button>
