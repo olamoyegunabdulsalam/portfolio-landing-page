@@ -72,9 +72,7 @@ const Hero = () => {
               >
                 <div className="flex items-center justify-center gap-2">
                   <a
-                    href={`https://wa.me/2348034910529?text=${encodeURIComponent(
-                      `Hi, I just came across your portfolio website offer.I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
-                    )}`}
+                    href={`https://wa.link/d1eedz`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

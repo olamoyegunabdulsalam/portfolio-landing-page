@@ -117,13 +117,7 @@ const WhoFor = () => {
               }
 
               // Open WhatsApp link
-              window.open(
-                `https://wa.me/2348034910529?text=${encodeURIComponent(
-                  `Hi, I just came across your portfolio website offer. I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
-                )}`,
-                "_blank",
-                "noopener,noreferrer",
-              );
+  window.open("https://wa.link/d1eedz", "_blank");
             }}
             className="px-8 py-3 rounded-lg bg-gradient-to-r from-cyan-500
             to-cyan-600 text-white font-semibold hover:shadow-lg

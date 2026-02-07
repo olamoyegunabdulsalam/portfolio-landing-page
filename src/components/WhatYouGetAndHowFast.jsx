@@ -113,13 +113,7 @@ const WhatYouGetAndHowFast = () => {
                 }
 
                 // Open WhatsApp link
-                window.open(
-                  `https://wa.me/2348034910529?text=${encodeURIComponent(
-                    `Hi, I just came across your portfolio website offer. I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
-                  )}`,
-                  "_blank",
-                  "noopener,noreferrer",
-                );
+  window.open("https://wa.link/d1eedz", "_blank");
               }}
               className="mt-4 px-10 py-4 rounded-lg bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 cursor-pointer"
             >

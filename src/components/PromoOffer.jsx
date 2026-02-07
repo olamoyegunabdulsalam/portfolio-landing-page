@@ -91,9 +91,7 @@ const PromoOffer = () => {
 
                       // Open WhatsApp link
                       window.open(
-                        `https://wa.me/2348034910529?text=${encodeURIComponent(
-                          `Hi, I just came across your portfolio website offer. I’m interested in building a custom professional website and would like to claim the 50% discount slot. My name is`,
-                        )}`,
+                        `https://wa.link/d1eedz`,
                         "_blank",
                         "noopener,noreferrer",
                       );

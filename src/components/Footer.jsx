@@ -39,7 +39,7 @@ const Footer = () => {
 
           {/* WhatsApp */}
           <a
-            href={`https://wa.me/2348034910529`}
+            href={`https://wa.link/d1eedz`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"

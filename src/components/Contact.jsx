@@ -197,13 +197,7 @@ const Contact = () => {
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 border border-cyan-500/20 rounded-2xl p-8">
                 <h3 className="text-2xl font-bold mb-6">Quick Connect</h3>
                 <a
-                  href={`https://wa.me/2348034910529?text=${encodeURIComponent(
-                    `Hi, I just came across your portfolio website offer.
-
-I’m interested in building a custom professional website and would like to claim the 50% discount slot.
-
-My name is`,
-                  )}`}
+                  href={`https://wa.link/d1eedz"`} 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-gray-900/30 border border-gray-700 hover:border-green-500/50 hover:bg-gray-800/50 transition-all group"
